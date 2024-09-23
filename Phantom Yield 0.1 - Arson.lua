@@ -3416,6 +3416,7 @@ local function ZHCBZLK_script() -- IyPurp.IyPurp.Handler
 
     AddCommand("dex/dexsolara/explorer", "Opens a dex explorer fixed for Solara", function(args)
 		Notify("Loading", "Loading Script, this may take a second", 3)
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/HummingBird8/HummingRn/main/OptimizedDexForSolara.lua"))()
 	end)
 	
 	AddCommand("jump", "Sets your jump power.", function(args)
